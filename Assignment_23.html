@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="tesy.py" method="GET">
+        <div>
+            <label for="username">Username</label>
+            <br>
+            <input id="username" type="text" minlength="10" maxlength="50" required placeholder="Enter Your Username">
+        </div>
+
+        <hr>
+
+        <div>
+            <label for="password">password</label>
+            <br>
+            <input id="password" type="password" minlength="10" maxlength="30" placeholder="Enter Your Password">
+        </div>
+
+        <hr>
+
+        <div>
+            <label for="email">email</label>
+            <br>
+            <input id="email" type="email" required placeholder="Enter Your Email">
+        </div>
+
+        <hr>
+
+        <div>
+            <label for="mobile">Mobile Phone</label>
+            <br>
+            <input id="mobile" type="tel" pattern="+[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="Enter Your Phone Number">
+        </div>
+        <input type="hidden" value="Made By Yousif">
+        <br>
+        <input type="reset" value="Empty Form">
+        <br>
+        <input type="submit" value="Send Data">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="Assignment_25.html" novalidate method="get" target="_blank">
+        <input type="hidden" name="token" value="b92f1fc2fce391ad7af633723afd3055">
+        <div>
+            <label for="email">Email</label>
+            <br>
+            <input id="email" name="email" type="email" readonly value="o@o.com" placeholder="Enter Your Email">
+        </div>
+        <div>
+            <label for="name">Username</label>
+            <br>
+            <input id="name" name="name" type="text" autofocus placeholder="Enter Your Username" minlength="5"
+                maxlength="20" required>
+        </div>
+        <hr>
+
+        <div class="skills">
+            <label>Skills: </label>
+            <div class="ps">
+                <input id="ps" name="ps" type="checkbox" value="Problem Solving">
+                <label for="ps">Problem Solving</label>
+            </div>
+            <div class="lt">
+                <input id="lt" name="lt" type="checkbox" value="Logical Thinking">
+                <label for="lt">Logical Thinking</label>
+            </div>
+            <div class="as">
+                <input id="as" name="as" type="checkbox" value="Advanced Search">
+                <label for="as">Advanced Search</label>
+            </div>
+            <div class="a">
+                <input id="a" name="a" type="checkbox" value="Analysis">
+                <label for="a">Analysis</label>
+            </div>
+            <div class="p">
+                <input id="p" name="p" type="checkbox" value="Planning">
+                <label for="p">Planning</label>
+            </div>
+        </div>
+        <hr>
+
+        <div class="jobs">
+            <label>Jobs: </label>
+            <div class="fed">
+                <input type="radio" name="job" id="fed" value="Front-End Developer">
+                <label for="fed">Front-End Developer</label>
+            </div>
+            <div class="bed">
+                <input type="radio" name="job" id="bed" value="Back-End Developer">
+                <label for="bed">Back-End Developer</label>
+            </div>
+            <div class="ba">
+                <input type="radio" name="job" id="ba" value="Business Analyst">
+                <label for="ba">Business Analyst</label>
+            </div>
+            <div class="pm">
+                <input type="radio" name="job" id="pm" value="Project Manager">
+                <label for="pm">Project Manager</label>
+            </div>
+            <div class="sm">
+                <input type="radio" name="job" id="sm" value="Scrum Master">
+                <label for="sm">Scrum Master</label>
+            </div>
+        </div>
+        <hr>
+
+        <div class="choose-book">
+            <label for="chooseBook"> Choose Book: </label>
+            <select name="book" id="chooseBook">
+                <optgroup label="PHP">
+                    <option value="php-v5">v5.0</option>
+                    <option value="php-v7">v7.0</option>
+                    <option value="php-v8">v8.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option value="Python-v2">v2.0</option>
+                    <option value="Python-v3">v3.0</option>
+                    <option value="Python-v3.9">v3.9</option>
+                </optgroup>
+            </select>
+        </div>
+        <hr>
+        <textarea name="text-text" id="brief" cols="30" rows="10"
+            placeholder="Write Here Why You Want To Learn Programming"></textarea>
+
+        <hr>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Send">
+    </form>
+</body>
+
+</html>
